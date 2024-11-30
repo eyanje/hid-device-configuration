@@ -1,0 +1,11 @@
+[package]
+name = "hid-device-configuration"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bluer = { version = "0.17.3", features = ["id"] }
+hid-device-id = { version = "0.1.0", path = "../hid-device-id" }
+sdp-xml = { git = "https://github.com/eyanje/sdp-xml", version = "0.1.0" }
+sdp-xml-reader = { git = "https://github.com/eyanje/sdp-xml-reader", version = "0.1.0" }
+uuid = "1.11.0"
