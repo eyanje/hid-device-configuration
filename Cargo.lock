@@ -223,6 +223,7 @@ dependencies = [
 [[package]]
 name = "hid-device-id"
 version = "0.1.0"
+source = "git+https://github.com/eyanje/hid-device-id#46ac132f7b4ba14121d946402ea368bc776633d5"
 dependencies = [
  "uuid",
 ]
